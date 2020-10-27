@@ -1,0 +1,24 @@
+{
+  "name": "mypokemondraft-api",
+  "version": "1.0.0",
+  "description": "When deploying to Prod, settings on the MySQL DB will need to change. See this: https://medium.com/javascript-in-plain-english/how-to-use-an-aws-sql-database-with-node-js-and-mysql-workbench-f77a71ac12be",
+  "main": "app.js",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaceWTensmeyer/MyPokemonDraft-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaceWTensmeyer/MyPokemonDraft-API/issues"
+  },
+  "homepage": "https://github.com/JaceWTensmeyer/MyPokemonDraft-API#readme"
+}
